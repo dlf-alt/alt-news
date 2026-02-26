@@ -1,0 +1,6 @@
+{{- if and .Params.source_url .Params.source_title }}
+<div class="source-link">
+  <span>Originalartikel:</span>
+  <a href="{{ .Params.source_url }}" target="_blank" rel="noopener noreferrer">{{ .Params.source_title }}</a>
+</div>
+{{- end }}

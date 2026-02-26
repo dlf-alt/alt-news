@@ -1,0 +1,18 @@
+.source-link {
+  margin-bottom: 1.5rem;
+  padding: 0.6rem 1rem;
+  border-left: 3px solid var(--primary);
+  background: var(--code-bg);
+  font-size: 0.9rem;
+  border-radius: 0 4px 4px 0;
+}
+.source-link span {
+  font-weight: 600;
+  margin-right: 0.4rem;
+  opacity: 0.7;
+}
+.source-link a {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
