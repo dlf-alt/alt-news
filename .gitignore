@@ -1,8 +1,8 @@
-# Python
+# Python pipeline
 __pycache__/
 *.pyc
 .env
 
-# Hugo
+# Hugo build artifacts (we commit docs/ intentionally)
 resources/
 .hugo_build.lock

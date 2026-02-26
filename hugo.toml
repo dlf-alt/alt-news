@@ -1,0 +1,38 @@
+baseURL = "https://dlf-alt.github.io/alt-news/"
+languageCode = "de-DE"
+title = "Alt-News"
+theme = "PaperMod"
+publishDir = "docs"
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  author = "Alt-News Redaktion"
+  description = "Alternative Perspektiven auf aktuelle Nachrichten"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowShareButtons = false
+  ShowToc = false
+
+[params.homeInfoParams]
+  Title = "Alt-News"
+  Content = "Alternative Perspektiven auf aktuelle Nachrichten — unabhängig, kritisch, hintergründig."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/dlf-alt/alt-news"
+
+[menu]
+  [[menu.main]]
+    name = "Artikel"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Über"
+    url = "/about/"
+    weight = 2
